@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow import keras
 from PIL import Image
 import glob
-from gan import Generator, Discriminator
+from GAN import Generator, Discriminator
 from dataset import make_anime_dataset
 from datetime import datetime
 

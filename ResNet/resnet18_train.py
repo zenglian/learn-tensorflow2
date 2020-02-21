@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras import layers, optimizers, datasets, Sequential
 import os
-from resnet import resnet18
+from ResNet import resnet18
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 tf.random.set_seed(2345)
